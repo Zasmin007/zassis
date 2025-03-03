@@ -1,0 +1,6 @@
+function opposite(number) {
+  if (typeof number !== 'number') {
+        return undefined;
+    }
+    return -number;
+}
